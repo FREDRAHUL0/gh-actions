@@ -1,0 +1,8 @@
+on:
+   workflow_dispatch:
+jobs:
+   jobs1:
+      runs-on: ubuntu-latest
+      steps:
+        - run: sleep 2
+        - run: sleep 1
